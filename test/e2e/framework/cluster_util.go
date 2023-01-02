@@ -38,8 +38,8 @@ import (
 	. "github.com/onsi/gomega/gstruct"
 	gomegatypes "github.com/onsi/gomega/types"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
-	pf "github.com/bitpoke/mysql-operator/test/e2e/framework/portforward"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
+	pf "github.com/yunussandikci/mysql-operator/test/e2e/framework/portforward"
 )
 
 var (

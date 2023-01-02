@@ -39,10 +39,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlcluster"
-	"github.com/bitpoke/mysql-operator/pkg/options"
-	"github.com/bitpoke/mysql-operator/pkg/util/constants"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlcluster"
+	"github.com/yunussandikci/mysql-operator/pkg/options"
+	"github.com/yunussandikci/mysql-operator/pkg/util/constants"
 )
 
 var log = logf.Log.WithName(controllerName)

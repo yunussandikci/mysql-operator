@@ -12,7 +12,7 @@ keywords:
 version: 0.0.0
 home: https://www.bitpoke.io/mysql-operator/
 sources:
-  - https://github.com/bitpoke/mysql-operator.git
+  - https://github.com/yunussandikci/mysql-operator.git
 annotations:
   artifacthub.io/license: "Apache-2.0"
   artifacthub.io/operator: "true"

@@ -28,8 +28,8 @@ import (
 	core "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
-	"github.com/bitpoke/mysql-operator/test/e2e/framework"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
+	"github.com/yunussandikci/mysql-operator/test/e2e/framework"
 )
 
 const (

@@ -17,7 +17,7 @@ limitations under the License.
 package mysqlbackup
 
 import (
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlcluster"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlcluster"
 )
 
 // SetDefaults sets default for backup

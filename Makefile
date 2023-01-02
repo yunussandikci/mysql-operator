@@ -1,6 +1,6 @@
 # Project Setup
 PROJECT_NAME := mysql-operator
-PROJECT_REPO := github.com/bitpoke/mysql-operator
+PROJECT_REPO := github.com/yunussandikci/mysql-operator
 
 PLATFORMS := darwin_amd64 linux_amd64
 include build/makelib/common.mk

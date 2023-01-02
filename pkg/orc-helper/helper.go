@@ -30,8 +30,8 @@ import (
 	"k8s.io/client-go/tools/reference"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlcluster"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlcluster"
 )
 
 // parse the orchestrator cluster name as NamespacedName

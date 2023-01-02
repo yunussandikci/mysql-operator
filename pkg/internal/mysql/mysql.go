@@ -26,7 +26,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	mysqlv1alpha1 "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
+	mysqlv1alpha1 "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
 
 	logf "github.com/presslabs/controller-util/log"
 )

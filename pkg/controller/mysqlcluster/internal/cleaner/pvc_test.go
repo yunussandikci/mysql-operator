@@ -31,9 +31,9 @@ import (
 	"k8s.io/client-go/tools/record"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlcluster"
-	"github.com/bitpoke/mysql-operator/pkg/options"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlcluster"
+	"github.com/yunussandikci/mysql-operator/pkg/options"
 )
 
 var _ = Describe("PVC cleaner", func() {

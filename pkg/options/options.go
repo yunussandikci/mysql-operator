@@ -25,7 +25,7 @@ import (
 	"github.com/spf13/pflag"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/bitpoke/mysql-operator/pkg/version"
+	"github.com/yunussandikci/mysql-operator/pkg/version"
 )
 
 // nolint: unparam

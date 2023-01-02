@@ -29,8 +29,8 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/bitpoke/mysql-operator/pkg/apis"
-	orc "github.com/bitpoke/mysql-operator/pkg/orchestrator"
+	"github.com/yunussandikci/mysql-operator/pkg/apis"
+	orc "github.com/yunussandikci/mysql-operator/pkg/orchestrator"
 )
 
 const (

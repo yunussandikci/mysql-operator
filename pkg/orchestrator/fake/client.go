@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	// nolint: golint
-	. "github.com/bitpoke/mysql-operator/pkg/orchestrator"
+	. "github.com/yunussandikci/mysql-operator/pkg/orchestrator"
 )
 
 // OrcFakeClient is a structure that implements orchestrator client interface used in

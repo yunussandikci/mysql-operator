@@ -24,11 +24,11 @@ import (
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
-	"github.com/bitpoke/mysql-operator/pkg/controller/internal/testutil"
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlbackup"
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlcluster"
-	"github.com/bitpoke/mysql-operator/pkg/options"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
+	"github.com/yunussandikci/mysql-operator/pkg/controller/internal/testutil"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlbackup"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlcluster"
+	"github.com/yunussandikci/mysql-operator/pkg/options"
 )
 
 var _ = Describe("MysqlBackup job syncer", func() {

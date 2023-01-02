@@ -19,7 +19,7 @@ import (
 
 	"github.com/onsi/ginkgo/config"
 
-	"github.com/bitpoke/mysql-operator/pkg/version"
+	"github.com/yunussandikci/mysql-operator/pkg/version"
 
 	"k8s.io/client-go/tools/clientcmd"
 )

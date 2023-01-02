@@ -24,7 +24,7 @@ import (
 
 	"github.com/presslabs/controller-util/syncer"
 
-	"github.com/bitpoke/mysql-operator/pkg/internal/mysqlcluster"
+	"github.com/yunussandikci/mysql-operator/pkg/internal/mysqlcluster"
 )
 
 // NewHealthySVCSyncer returns a service syncer

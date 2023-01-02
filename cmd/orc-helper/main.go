@@ -25,8 +25,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 
-	"github.com/bitpoke/mysql-operator/pkg/apis"
-	orchelper "github.com/bitpoke/mysql-operator/pkg/orc-helper"
+	"github.com/yunussandikci/mysql-operator/pkg/apis"
+	orchelper "github.com/yunussandikci/mysql-operator/pkg/orc-helper"
 )
 
 var (

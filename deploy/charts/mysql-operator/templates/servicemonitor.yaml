@@ -1,5 +1,5 @@
 # This is a ServicMonitor for the MySQL operator itself.
-# To scrape the operator, we need https://github.com/bitpoke/mysql-operator/issues/151 first.
+# To scrape the operator, we need https://github.com/yunussandikci/mysql-operator/issues/151 first.
 {{- if .Values.serviceMonitor.enabled }}
 {{- if .Capabilities.APIVersions.Has "monitoring.coreos.com/v1" }}
 apiVersion: monitoring.coreos.com/v1

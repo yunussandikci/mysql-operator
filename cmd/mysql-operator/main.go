@@ -30,9 +30,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
 
-	"github.com/bitpoke/mysql-operator/pkg/apis"
-	"github.com/bitpoke/mysql-operator/pkg/controller"
-	"github.com/bitpoke/mysql-operator/pkg/options"
+	"github.com/yunussandikci/mysql-operator/pkg/apis"
+	"github.com/yunussandikci/mysql-operator/pkg/controller"
+	"github.com/yunussandikci/mysql-operator/pkg/options"
 )
 
 var log = logf.Log.WithName("mysql-operator")

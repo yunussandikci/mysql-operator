@@ -17,7 +17,7 @@ limitations under the License.
 package controller
 
 import (
-	"github.com/bitpoke/mysql-operator/pkg/controller/orchestrator"
+	"github.com/yunussandikci/mysql-operator/pkg/controller/orchestrator"
 )
 
 func init() {

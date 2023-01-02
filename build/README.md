@@ -16,7 +16,7 @@ git subtree add -P build https://github.com/bitpoke/build.git
 cat <<EOF > Makefile
 # Project Setup
 PROJECT_NAME := mysql-operator
-PROJECT_REPO := github.com/bitpoke/mysql-operator
+PROJECT_REPO := github.com/yunussandikci/mysql-operator
 
 include build/makelib/common.mk
 ```

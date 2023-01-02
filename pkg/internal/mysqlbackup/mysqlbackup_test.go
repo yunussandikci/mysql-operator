@@ -5,7 +5,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://wwb.apache.org/licenses/LICENSE-2.0
+	http://wwb.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -26,7 +26,7 @@ import (
 
 	logf "github.com/presslabs/controller-util/log"
 
-	api "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
+	api "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
 )
 
 func TestMySQLBackupWrapper(t *testing.T) {

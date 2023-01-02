@@ -25,38 +25,49 @@ import (
 	"path"
 	"strings"
 
-	"github.com/bitpoke/mysql-operator/pkg/util/constants"
+	"github.com/yunussandikci/mysql-operator/pkg/util/constants"
 )
 
 // RunCloneCommand clones the data from several potential sources.
 //
 // There are a few possible scenarios that this function tries to handle:
 //
-//  Scenario                 | Action Taken
+//	Scenario                 | Action Taken
+//
 // ------------------------------------------------------------------------------------
 // Data already exists       | Log an informational message and return without error.
-//                           | This permits the pod to continue initializing and mysql
-//                           | will use the data already on the PVC.
+//
+//	| This permits the pod to continue initializing and mysql
+//	| will use the data already on the PVC.
+//
 // ------------------------------------------------------------------------------------
 // Healthy replicas exist    | We will attempt to clone from the healthy replicas.
-//                           | If the cloning starts but is interrupted, we will return
-//                           | with an error, not trying to clone from the master. The
-//                           | assumption is that some intermittent error caused the
-//                           | failure and we should let K8S restart the init container
-//                           | to try to clone from the replicas again.
+//
+//	| If the cloning starts but is interrupted, we will return
+//	| with an error, not trying to clone from the master. The
+//	| assumption is that some intermittent error caused the
+//	| failure and we should let K8S restart the init container
+//	| to try to clone from the replicas again.
+//
 // ------------------------------------------------------------------------------------
 // No healthy replicas; only | We attempt to clone from the master, assuming that this
 // master exists             | is the initialization of the second pod in a multi-pod
-//                           | cluster. If cloning starts and is interrupted, we will
-//                           | return with an error, letting K8S try again.
+//
+//	| cluster. If cloning starts and is interrupted, we will
+//	| return with an error, letting K8S try again.
+//
 // ------------------------------------------------------------------------------------
 // No healthy replicas; no   | If there is a bucket URL to clone from, we will try that.
 // master; bucket URL exists | The assumption is that this is the bootstrap case: the
-//                           | very first mysql pod is being initialized.
+//
+//	| very first mysql pod is being initialized.
+//
 // ------------------------------------------------------------------------------------
 // No healthy replicas; no   | If this is the first pod in the cluster, then allow it
 // master; no bucket URL     | to initialize as an empty instance, otherwise, return an
-//                           | error to allow k8s to kill and restart the pod.
+//
+//	| error to allow k8s to kill and restart the pod.
+//
 // ------------------------------------------------------------------------------------
 func RunCloneCommand(cfg *Config) error {
 	log.Info("cloning command", "host", cfg.Hostname)

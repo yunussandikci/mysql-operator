@@ -24,7 +24,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	mysqlv1alpha1 "github.com/bitpoke/mysql-operator/pkg/apis/mysql/v1alpha1"
+	mysqlv1alpha1 "github.com/yunussandikci/mysql-operator/pkg/apis/mysql/v1alpha1"
 )
 
 // CreateUserIfNotExists creates a user if it doesn't already exist and it gives it the specified permissions

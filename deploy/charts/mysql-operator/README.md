@@ -1,6 +1,6 @@
 # Bitpoke MySQL Operator
 
-This is the helm chart for [mysql-operator](https://github.com/bitpoke/mysql-operator).
+This is the helm chart for [mysql-operator](https://github.com/yunussandikci/mysql-operator).
 
 ## TL;DR
 ```sh
@@ -52,4 +52,4 @@ The following table contains the configuration parameters for mysql-operator and
 | `orchestrator.ingress.enabled`  | Specifies whether to enable the ingress for Orchestrator                                      | `false`                                                 |
 | `orchestrator.ingress.*`        | Check `values.yaml`                                                                           |                                                         |
 | `orchestrator.service.*`        | Orchestrator `Service` definition. Check `values.yaml`                                        |                                                         |
-| `orchestrator.persistence.fsGroupWorkaroundEnabled` | Adds a  workaround for persistent volume provisioners which don't support fsGroup (eg. when deploying to kind) [#615](https://github.com/bitpoke/mysql-operator/issues/615) | `false` |
+| `orchestrator.persistence.fsGroupWorkaroundEnabled` | Adds a  workaround for persistent volume provisioners which don't support fsGroup (eg. when deploying to kind) [#615](https://github.com/yunussandikci/mysql-operator/issues/615) | `false` |

@@ -42,7 +42,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Removed
  * Removed support for Helm 2
 ### Fixed
- * Make sure orchestrator can find its templates [#741](https://github.com/bitpoke/mysql-operator/issues/741)
+ * Make sure orchestrator can find its templates [#741](https://github.com/yunussandikci/mysql-operator/issues/741)
  * Workaround CRD generation with `preserveUnknownFields=false` [kubernetes-sigs/controller-tools#476](https://github.com/kubernetes-sigs/controller-tools/issues/476)
 
 ## [0.5.3] - 2021-12-06
@@ -59,7 +59,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
  * Update rclone to `v1.57.0`
 ### Removed
 ### Fixed
- * Make sure orchestrator can find its templates [#741](https://github.com/bitpoke/mysql-operator/issues/741)
+ * Make sure orchestrator can find its templates [#741](https://github.com/yunussandikci/mysql-operator/issues/741)
 
 ## [0.5.1] - 2021-10-12
 ### Added

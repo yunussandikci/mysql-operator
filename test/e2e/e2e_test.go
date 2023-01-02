@@ -19,11 +19,11 @@ package e2e
 import (
 	"testing"
 
-	"github.com/bitpoke/mysql-operator/test/e2e/framework"
+	"github.com/yunussandikci/mysql-operator/test/e2e/framework"
 
 	// test sources
-	_ "github.com/bitpoke/mysql-operator/test/e2e/backups"
-	_ "github.com/bitpoke/mysql-operator/test/e2e/cluster"
+	_ "github.com/yunussandikci/mysql-operator/test/e2e/backups"
+	_ "github.com/yunussandikci/mysql-operator/test/e2e/cluster"
 )
 
 func init() {

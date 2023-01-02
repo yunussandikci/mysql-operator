@@ -45,7 +45,7 @@ type MysqlClusterSpec struct {
 	SecretName string `json:"secretName"`
 
 	// Represents the MySQL version that will be run. The available version can be found here:
-	// https://github.com/bitpoke/mysql-operator/blob/0fd4641ce4f756a0aab9d31c8b1f1c44ee10fcb2/pkg/util/constants/constants.go#L87
+	// https://github.com/yunussandikci/mysql-operator/blob/0fd4641ce4f756a0aab9d31c8b1f1c44ee10fcb2/pkg/util/constants/constants.go#L87
 	// This field should be set even if the Image is set to let the operator know which mysql version is running.
 	// Based on this version the operator can take decisions which features can be used.
 	// Defaults to 5.7
@@ -363,7 +363,6 @@ type MysqlClusterStatus struct {
 // +kubebuilder:printcolumn:name="Replicas",type="integer",JSONPath=".spec.replicas",description="The number of desired nodes"
 // +kubebuilder:printcolumn:name="Age",type="date",JSONPath=".metadata.creationTimestamp"
 // +kubebuilder:resource:shortName=mysql
-//
 type MysqlCluster struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
@@ -374,7 +373,6 @@ type MysqlCluster struct {
 
 // MysqlClusterList contains a list of MysqlCluster
 // +kubebuilder:object:root=true
-//
 type MysqlClusterList struct {
 	metav1.TypeMeta `json:",inline"`
 	metav1.ListMeta `json:"metadata,omitempty"`

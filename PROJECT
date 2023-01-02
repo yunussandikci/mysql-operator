@@ -1,6 +1,6 @@
 version: "2"
 domain: presslabs.org
-repo: github.com/bitpoke/mysql-operator
+repo: github.com/yunussandikci/mysql-operator
 resources:
 - group: mysql
   kind: MysqlCluster
